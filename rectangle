@@ -1,0 +1,10 @@
+a1=int(input("Enter the value of A1: "))
+a2=int(input("Enter the value of A2: "))
+b1=int(input("Enter the value of B1: "))
+b2=int(input("Enter the value of B2: "))
+if a1==a2 and b1==b2:
+    print("Yes")
+elif a1==b1 and a2==b2:
+    print("Yes")
+else:
+    print("No")
